@@ -1,0 +1,17 @@
+1-Qual foi a maior diferença entre programar um Modal e um Toast?
+A principal diferença é que o Modal exige interação direta do usuário e bloqueia a tela com um fundo escuro até que seja fechado,
+enquanto o Toast é uma notificação leve e temporária que aparece em um canto da tela, não bloqueia a navegação e desaparece sozinho após 
+alguns segundos.
+
+2-Qual funcionalidade exigiu mais pesquisa?
+A reutilização de uma única estrutura de Toast no HTML para exibir diferentes tipos de mensagens alterando dinamicamente o título, 
+o corpo e os ícones via JavaScript, além da manipulação dinâmica do DOM no histórico de atividades.
+
+3-O que foi reaproveitado da atividade anterior?
+Foram reaproveitados os conhecimentos de inicialização e controle de componentes do Bootstrap (como a classe de controle dos modais),
+a estrutura de organização de layout e o uso do sistema de grid responsivo.
+
+4-Se o sistema precisasse apresentar 20 tipos de notificação, vocês criariam 20 Toasts? Justifiquem.
+Não. A melhor prática é manter apenas uma estrutura de Toast no HTML e atualizar o seu conteúdo (título, texto,
+ícones e cores) dinamicamente via JavaScript antes de acioná-lo. Criar 20 Toasts estáticos duplicaria código desnecessariamente e
+tornaria a manutenção do sistema mais complexa.
